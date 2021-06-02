@@ -173,7 +173,7 @@ function computerAI() {
 
 function showGameOverEl(winner) {
   // Hide Canvas
-  canvas.hidden = 'true';
+  canvas.hidden = true;
   // Container
   gameOverEl.textContent = '';
   gameOverEl.classList.add('game-over-container');
